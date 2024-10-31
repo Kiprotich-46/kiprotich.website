@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+<content="width=device-width,initial-scale=1.0">
+    <title>sales website</title>
+    <style>
+       body {
+           font-family:Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           background-color:gold;
+             }
+       header{
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+             }
+      header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+             }
+     header h1 {
+            margin: 0;
+               }
+     header nav ul {
+                 list-style-type: none;
+                 margin: 0;
+                 padding: 0;
+                 display: flex;
+                   }
+     header nav ul li {
+                  margin-left: 20px;
+                      }
+     header nav ul li a {
+                  colo: white;
+                  text-decoration: none;
+                        }
+     section {
+             padding: 50px 0;  
+             }
+     .container {
+             width: 80%;
+             margin: 0 auto;
+                }
+     .home-section {
+                 background-color: #4f4f4;
+                 text-align: center;
+                   }
+     .products-section {
+                  background-color: orange;
+                       }
+     .product-list {
+             display: flex;
+             justify-content: space-around;
+              }
+     .product {
+             background-color:gold;
+             border: 1px solid #ddd;
+             padding: 20px
+             width: 30%
+             text-align: center;
+              }
+     .contact-section {
+             background-color: #f4f4f4;
+                      }
+     .contact-section form {
+                      display: flex;
+                      flex-direction: column;
+                           }
+     .contact-section .form-group {
+                       margin-bottom: 15px;   
+                                 }
+     .contact-section .form-group label {
+                                  margin-bottom: 15px
+                                  display: block;
+                                        }
+     .contact-section .form-group input,
+     .contact-section .form-group textarea
+                               { 
+                              width: 100%;
+                              padding: 10px;
+                              border: 1px solid #ddd;
+                                }
+     .contact-section button {
+                            padding: 10px;
+                            backgroun-color: #333;
+                            color: white
+                            border: none;
+                            cursor: pointer;
+                             }
+     footer {
+           background-color: #333
+           color: white'
+           text-align: center;
+           padding: 10px 0;
+            }
+     </style>
+
+</head>
+<body>
+    <header>
+         <div class="container">
+              <h1>Sales Website</h1>
+              <nav>
+                 <ul>
+                   <li><a href="file:///C:/Users/Admin/OneDrive/Desktop/festus.html">Home</a></li>
+                   <li><a href="#products">products</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                 </ul>
+              </nav>
+        </div>
+        </header>
+
+        <section id="home" class="home-section">
+        <div class="container">
+           <h2>Welcome to our sales website!</h2>
+           <p>Find the best deals on the products you love.</p>
+        </div>
+        </section>
+
+        <section id="products" class="products-section">
+           <div class="container">
+               <h2>Our products</h2>
+               <div class="product-list">
+                 <div class="product">
+                   <h3>sneakers</h3>
+                   <p>Description of product 1</p>
+                   <p>Price: $10</p>
+                 </div>
+                 <div class="product">
+                   <h3>women's wear</h3>
+                   <p>Description of product 2</p>
+                   <p>Price: $20</p>
+                </div>
+                <div class="product">
+                   <h3>men's wear</h3>
+                   <p>Description of product 3</p>
+                   <p>Price: $30</p>
+                </div>
+              </div>
+           </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+           <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+           <div class="form-group">
+             <label for="name">Name</label>
+             <input type="text" id="name" name="name" requred>
+           </div>
+           <div class="form-group">
+             <label for="email">Email</label>
+             <input type="email" id="email" name="email" requred>
+           </div>
+           <div class="form-group">
+           <label for="message">Message</label>
+           <textarea id="message" name="message" requred></textarea>
+           </div>
+           <button type="submit">Send</button>  
+               </form>
+          </div>
+        </section>
+
+     <footer>
+          <div class="container">
+            <p>&copy; 2024 Sales Website. All rights reserved.</p>
+           </div>
+     </footer>             
+            
+</body>
+</html>
